@@ -10,7 +10,7 @@ package com.mycompany.questiontwo;
  */
 import java.util.Scanner;
 
-public class RunApplication {
+public class main {
 
     public static void main(String[] args) {
 
