@@ -11,12 +11,9 @@ package com.mycompany.programming1btest;
 public class ElectronicsReport {
 
     public static void main(String[] args) {
-
-        // Single-dimensional array for city names
         String[] cities = {"CAPE TOWN", "PORT ELIZABETH", "PRETORIA"};
 
-        // Two-dimensional array for sales data
-        // Rows = cities, Columns = [PS5, XBOX, SWITCH]
+    
         int[][] sales = {
             {1000, 2000, 3000},  // Cape Town
             {2000, 3000, 4000},  // Port Elizabeth
@@ -57,7 +54,7 @@ public class ElectronicsReport {
 
             System.out.printf("%-20s : %d%n", cities[i], total);
 
-            // Track the city with the highest sales
+
             if (total > maxTotal) {
                 maxTotal = total;
                 maxIndex = i;
