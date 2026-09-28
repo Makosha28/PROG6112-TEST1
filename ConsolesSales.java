@@ -8,7 +8,7 @@ package com.mycompany.questiontwo;
  *
  * @author Student
  */
-public abstract class ConsolesSales implements Consoles {
+public abstract class Consoles implements IConsoles {
 
     // Instance variables
     private String consoleType;
@@ -16,7 +16,7 @@ public abstract class ConsolesSales implements Consoles {
     private int totalSales;
 
     // Constructor
-    public ConsolesSales(consoleType, String storeName, int totalSales) {
+    public Consoles(String consoleType, String storeName, int totalSales) {
         this.consoleType = consoleType;
         this.storeName = storeName;
         this.totalSales = totalSales;
@@ -37,9 +37,4 @@ public abstract class ConsolesSales implements Consoles {
     public int getTotalSales() {
         return totalSales;
     }
-
-    void printReport() {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
 }
-
