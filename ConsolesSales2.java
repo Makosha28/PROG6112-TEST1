@@ -8,13 +8,13 @@ package com.mycompany.questiontwo;
  *
  * @author Student
  */
-public class ConsolesSales extends Consoles {
-    // Constructor
-    public ConsoleSales (String consoleType, String storeName, int totalSales) {
+public class ConsoleSales extends Consoles {
+
+
+    public ConsoleSales(String consoleType, String storeName, int totalSales) {
         super(consoleType, storeName, totalSales);
     }
 
-    // Method that prints the report
     public void printReport() {
         System.out.println("==========================================");
         System.out.println("          CONSOLE SALES REPORT");
