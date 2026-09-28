@@ -8,7 +8,7 @@ package com.mycompany.questiontwo;
  *
  * @author Student
  */
-public interface Consoles{
+public interface Consoless{
     String getConsoleType();
     String getStore();
     int getTotalSales();
